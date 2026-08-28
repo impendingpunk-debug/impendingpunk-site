@@ -1,11 +1,11 @@
-# impendingpunk.space homepage
+# Impending Punk homepage
 
-This folder is ready for GitHub Pages.
+This folder is ready to upload to the root of a GitHub Pages repository.
 
-## Upload
+- `index.html` — homepage and copy
+- `styles.css` — responsive 1990s visual design
+- `script.js` — mobile navigation and current year
 
-1. Upload `index.html`, `styles.css`, and `script.js` to the root of your GitHub repository.
-2. In the repository settings, open **Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**, select your main branch and `/ (root)`, then save.
+The navigation already points to future root-level pages such as `games.html` and `family.html`. Until those pages are created, those links will return a 404.
 
-The page uses no images or build tools. Its original retro artwork is made entirely with HTML and CSS. Google Fonts are the only external resource; if they cannot load, the page falls back to common system fonts.
+No build process is required. Upload the files, commit, and enable GitHub Pages for the repository.

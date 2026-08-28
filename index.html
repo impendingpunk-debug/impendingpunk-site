@@ -3,183 +3,105 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7e6c9">
-  <meta name="description" content="A personal time capsule about growing up in the '90s — the games, places, people, and ordinary moments that stayed.">
-  <title>impendingpunk.space — Growing Up in the '90s</title>
+  <meta name="theme-color" content="#242140">
+  <meta name="description" content="Jack Tanner's personal time capsule: growing up, coming of age, and remembering the world of the 1990s.">
+  <title>Impending Punk — Growing Up in the '90s</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="grain" aria-hidden="true"></div>
-  <div class="scroll-progress" aria-hidden="true"><span></span></div>
-
+  <a class="skip-link" href="#story">Skip to the story</a>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="impendingpunk.space home">
-      <span class="brand-mark">IP</span>
-      <span>impendingpunk<span class="dot">.</span>space</span>
+    <a class="wordmark" href="#home" aria-label="Impending Punk home">
+      <span class="wordmark-top">IMPENDING</span><span class="wordmark-bottom">PUNK</span>
     </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-      <span></span><span></span><span></span><span class="sr-only">Open menu</span>
-    </button>
-    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
-      <a class="active" href="#story">My Story</a>
-      <a href="#time-capsule">Time Capsule</a>
-      <a href="#coming-next">Explore</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">MENU</button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="#home" aria-current="page">Home</a>
+      <a href="my-story.html">My Story</a>
+      <a href="time-capsule.html">Time Capsule</a>
+      <a href="games.html">Games</a>
+      <a href="tech.html">Tech</a>
+      <a href="places.html">Places</a>
+      <a href="wrestling.html">Wrestling</a>
+      <a href="family.html">Family</a>
+      <a href="now.html">Now</a>
     </nav>
   </header>
 
-  <main id="top">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-shapes" aria-hidden="true">
-        <span class="shape triangle"></span><span class="shape zigzag"></span>
-        <span class="shape dots"></span><span class="shape circle"></span>
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">A PERSONAL TIME CAPSULE <span>EST. 1980-SOMETHING</span></p>
+        <h1 id="hero-title">This is growing up<br>in the <em>’90s.</em></h1>
+        <p class="dek">Before streaming. Before smartphones. Before everything lived in the cloud. <strong>This was our world.</strong></p>
+        <a class="start-button" href="#story">PRESS START <span aria-hidden="true">▶</span></a>
       </div>
-      <div class="hero-copy reveal">
-        <p class="eyebrow"><span>01</span> Insert memory here</p>
-        <h1 id="hero-title">This is growing up in the <span class="nineties">’90s.</span></h1>
-        <div class="hero-intro">
-          <p>Before streaming.<br>Before digital downloads.<br>Before every game, movie, song, and answer to every question was sitting in our pockets.</p>
-          <p>There were video stores. Cartridge games. Saturday mornings. Trips to the mall. Places that don't exist anymore.</p>
-          <p class="marker-line">And memories that somehow still feel like yesterday.</p>
+      <div class="hero-art" aria-hidden="true">
+        <div class="cup">
+          <span class="cup-rim"></span>
+          <span class="squiggle s1"></span><span class="squiggle s2"></span><span class="squiggle s3"></span>
+          <span class="cup-label">MEMORIES<br>TO GO</span>
         </div>
-        <a class="scroll-cue" href="#story"><span>Read the story</span><span class="arrow">↓</span></a>
+        <span class="shape triangle"></span><span class="shape dot-grid"></span><span class="shape zigzag"></span>
+        <span class="sticker">100%<br>ANALOG</span>
       </div>
+      <div class="hero-ticker" aria-hidden="true"><span>BE KIND • REWIND</span><span>FRIDAY NIGHT RENTAL</span><span>4 PLAYERS • 1 SCREEN</span></div>
+    </section>
 
-      <div class="hero-art reveal" aria-label="An original illustration of a retro video rental memory">
-        <div class="tape tape-top">PLAY ▶</div>
-        <div class="crt">
-          <div class="crt-screen">
-            <div class="scanlines"></div>
-            <div class="screen-copy">
-              <span class="screen-label">WEEKEND RENTAL</span>
-              <strong>FRI 7:42 PM</strong>
-              <span>TRACKING...</span>
-            </div>
-            <div class="horizon-grid"></div>
+    <article class="story-wrap" id="story" aria-labelledby="story-title">
+      <aside class="story-kicker">
+        <span class="issue">MEMORY 001</span>
+        <span class="location">BELLEVIEW, FL</span>
+        <span class="date">LATE ’90s</span>
+      </aside>
+      <div class="story-card">
+        <header>
+          <p class="category">WEEKEND RENTAL / NINTENDO 64</p>
+          <h2 id="story-title">The GoldenEye<br><span>Heist</span></h2>
+          <p class="standfirst">One new video store. Two underage agents. One absolutely foolproof plan.</p>
+        </header>
+        <div class="story-columns">
+          <div>
+            <p class="dropcap">One of my favorite old memories is riding with my brother, Jason, and our dad to the Blockbuster that had just opened in Belleview, Florida.</p>
+            <p>It was the weekend, which meant family movies and—if we were lucky—a game or two. But Jason and I already knew what we wanted. Dad probably knew what we were going to try to get, too.</p>
+            <p class="pullquote">GoldenEye 007.</p>
+            <p>By then, the game had already been out for a couple of years. But before that store opened, we hadn’t really had anywhere nearby to rent games. The games we knew were the ones Mom had bought for us to own: Zelda. Mario Kart. Games that lived beside the Nintendo.</p>
           </div>
-          <div class="crt-controls"><i></i><i></i><span>COLOR TV</span></div>
-        </div>
-        <div class="cup" aria-hidden="true"><div class="cup-squiggle one"></div><div class="cup-squiggle two"></div><span>ICE COLD</span></div>
-        <div class="cartridge" aria-hidden="true"><span>64-BIT</span><strong>WEEKEND<br>MISSION</strong><small>PLAYER 1 + 2</small></div>
-        <div class="sticker">Be kind.<br><strong>REWIND.</strong></div>
-      </div>
-    </section>
-
-    <section id="story" class="story-section">
-      <div class="section-heading reveal">
-        <p class="eyebrow"><span>02</span> Belleview, Florida · late ’90s</p>
-        <h2>The perfect <em>crime.</em></h2>
-      </div>
-
-      <article class="story-card reveal">
-        <div class="card-tape" aria-hidden="true"></div>
-        <aside class="story-margin" aria-hidden="true">
-          <span>FRIDAY NIGHT</span>
-          <div class="doodle-arrow">↳</div>
-          <small>a game or two</small>
-        </aside>
-        <div class="story-copy">
-          <p>One of my favorite old memories is riding with my brother, Jason, and our dad to the Blockbuster that had just opened in Belleview, Florida.</p>
-          <p>It was the weekend, which meant family movies and—if we were lucky—a game or two.</p>
-          <p>But Jason and I already knew what we wanted.</p>
-          <p>Dad probably knew what we were going to try to get, too.</p>
-          <p class="story-hit">GoldenEye 007.</p>
-          <p>By then, GoldenEye had already been out for a couple of years. But we hadn't really had a rental place nearby before that Blockbuster opened.</p>
-          <p>The games we had played up until then were games Mom had actually bought for us to own.</p>
-          <div class="game-list" aria-label="Games we owned"><span>Zelda.</span><span>Mario Kart.</span></div>
-          <p>Games that sat next to the Nintendo and belonged to us.</p>
-          <p>But I wanted GoldenEye.</p>
-          <p>Jason wanted GoldenEye.</p>
-          <p>There was only one problem.</p>
-          <p class="highlight">We were <strong>way too young</strong> to be playing it.</p>
-          <p>So, naturally, we came up with a plan.</p>
-          <p>Jason grabbed another game. Something completely random.</p>
-          <p>Then we put it on top of GoldenEye.</p>
-          <p class="story-hit small">The perfect crime.</p>
-          <p>I carried both games up to Dad, apparently believing that if GoldenEye was underneath another box, a grown man would somehow be unable to see it.</p>
-          <p>Dad looked at the games.</p>
-          <p class="pause">And rented both of them.</p>
-          <p>At the time, Jason and I probably thought we'd pulled off one of the greatest schemes in history.</p>
-          <p>Now that I'm a dad myself, I'm pretty sure Dad knew exactly what we were doing.</p>
-          <p>Either way, we got GoldenEye.</p>
-          <p>We went home and spent that weekend playing a Rated M game years before either of us had any business playing it.</p>
-          <p>And more than twenty-five years later, it's still one of my most cherished memories.</p>
-          <p>Not just because GoldenEye was a great game.</p>
-        </div>
-      </article>
-
-      <div class="memory-beats reveal" aria-label="What I remember">
-        <div><span>01</span><p>I remember the ride with Dad.</p></div>
-        <div><span>02</span><p>I remember how exciting that new Blockbuster felt.</p></div>
-        <div><span>03</span><p>I remember Jason and me plotting together.</p></div>
-        <div><span>04</span><p>I remember walking out with that game.</p></div>
-        <div><span>05</span><p>And I remember knowing exactly how my brother and I were going to spend the weekend.</p></div>
-      </div>
-
-      <blockquote class="ordinary reveal">
-        <p>It's strange which moments survive.</p>
-        <p>The huge moments aren't always the ones that stay.</p>
-        <div class="ordinary-list"><span>A car ride.</span><span>A video store.</span><span>A Nintendo cartridge.</span><span>Your brother sitting beside you.</span></div>
-        <p>And a weekend that, at the time, felt completely ordinary.</p>
-      </blockquote>
-    </section>
-
-    <section id="time-capsule" class="capsule-section">
-      <div class="capsule-grid">
-        <div class="capsule-title reveal">
-          <p class="eyebrow light"><span>03</span> The bigger picture</p>
-          <h2>This is the story of <span>Jack Tanner.</span></h2>
-          <p class="turn">But it isn't <strong>just</strong> the story of Jack Tanner.</p>
-          <p class="era">It's also the story of the <em>’90s.</em></p>
-        </div>
-        <div class="capsule-copy reveal">
-          <div class="receipt">
-            <div class="receipt-head">TIME CAPSULE <span>#1990</span></div>
-            <ul>
-              <li><span>The games we played.</span><b>✦</b></li>
-              <li><span>The toys we begged our parents for.</span><b>✦</b></li>
-              <li><span>The technology that felt like science fiction.</span><b>✦</b></li>
-              <li><span>The stores we wandered through.</span><b>✦</b></li>
-              <li><span>The movies we rented.</span><b>✦</b></li>
-              <li><span>The cartoons we woke up early to watch.</span><b>✦</b></li>
-              <li><span>The places we spent our summers.</span><b>✦</b></li>
-              <li><span>The things that disappeared.</span><b>✦</b></li>
-            </ul>
-            <p>And the little parts of everyday life that are almost impossible to explain to someone who wasn't there.</p>
+          <div>
+            <p>We both wanted GoldenEye. There was only one problem: we were <strong>way too young</strong> to be playing it.</p>
+            <p>So, naturally, we came up with a plan. Jason grabbed some random game and we put it on top of GoldenEye. I carried both boxes up to Dad, apparently believing the bottom one had become invisible.</p>
+            <p>Dad looked at the games. And rented both.</p>
+            <p class="note">THE PERFECT CRIME!<br><small>(or so we thought)</small></p>
+            <p>At the time, we thought we’d pulled off the greatest scheme in history. Now that I’m a dad, I’m pretty sure he knew exactly what we were doing.</p>
+          </div>
+          <div>
+            <p>Either way, we got GoldenEye. Jason and I spent that weekend playing a Rated M game years before either of us had any business playing it.</p>
+            <p>More than twenty-five years later, it’s still one of my most cherished memories. Not just because GoldenEye was a great game. I remember the ride with Dad. The excitement of that new store. Plotting with my brother. Walking out with the game. Knowing exactly how we would spend the weekend.</p>
+            <p>It’s strange which moments survive. Sometimes it’s a car ride. A video store. A Nintendo cartridge. Your brother beside you. And a weekend that, at the time, felt completely ordinary.</p>
           </div>
         </div>
+        <footer class="story-footer"><span>JACK TANNER</span><span>CONTINUE? <b>YES</b> / NO</span></footer>
       </div>
+    </article>
 
-      <div class="manifesto reveal">
-        <p>This site is my attempt to remember them.</p>
-        <div class="manifesto-words"><span>Part autobiography.</span><span>Part time capsule.</span><span>Part love letter to the world I grew up in.</span></div>
-        <p>There will be stories about my family, my childhood, games, computers, wrestling, toys, Blockbuster, Rhino Games, Rainbow Springs, and probably a thousand other things I haven't remembered yet.</p>
-        <p>And someday, when my daughter asks what it was like when I was a kid, I want to be able to show her.</p>
+    <section class="closing" aria-labelledby="closing-title">
+      <div class="closing-intro">
+        <p class="eyebrow">SIDE B / THE BIGGER STORY</p>
+        <h2 id="closing-title">Welcome to the ’90s.<br><em>And welcome to my life.</em></h2>
       </div>
-
-      <div class="final-statement reveal">
-        <p>This was my world.</p>
-        <h2>This was growing up in the <span>’90s.</span></h2>
-        <div class="rewind">◀◀ REWIND TO BEGINNING</div>
+      <div class="memory-list" aria-label="Memories from the 1990s">
+        <span>FRIDAY NIGHT VIDEO STORES</span><span>CARTRIDGES LIKE TREASURE</span><span>SATURDAY MORNING CARTOONS</span><span>DIAL-UP INTERNET</span><span>MALLS + ARCADES</span><span>THE BACK SEAT, WHILE OUR PARENTS HANDLED THE WORLD</span>
       </div>
-    </section>
-
-    <section id="coming-next" class="coming-next">
-      <div class="reveal">
-        <p class="eyebrow"><span>04</span> More memories loading</p>
-        <h2>The time capsule is just getting started.</h2>
-        <p>More rooms will open as the story grows.</p>
+      <div class="closing-copy">
+        <p>We didn’t know any of it was temporary. We didn’t know the video store would disappear, the games we fought over would become collectibles, or that ordinary weekends would become memories we’d give anything to visit again.</p>
+        <p>We were just kids. Somehow, the world we grew up in became history.</p>
+        <p>This site is my attempt to hold onto it—the games, the stores, the technology, the places, the people, and the dumb little moments that mattered more than we realized. Some of it is the story of a generation. Some of it is just Jack’s.</p>
+        <p>And one day, when my daughter wants to know what the world looked like before hers, I hope this helps me show her.</p>
       </div>
-      <div class="shelf reveal" aria-label="Future site sections">
-        <span>My Story</span><span>Games</span><span>Tech</span><span>Places</span><span>Wrestling</span><span>Family</span><span>Now</span>
-      </div>
+      <p class="final-line"><span>WELCOME TO THE ’90s.</span><strong>WELCOME TO MY LIFE.</strong></p>
+      <footer class="site-footer"><span>© <span id="year"></span> JACK TANNER</span><span>IMPENDINGPUNK.SPACE</span><span>FOR ENOLA, SOMEDAY.</span></footer>
     </section>
   </main>
-
-  <footer>
-    <a class="brand" href="#top"><span class="brand-mark">IP</span><span>impendingpunk<span class="dot">.</span>space</span></a>
-    <p>A life, remembered one story at a time.</p>
-    <p>© <span id="year"></span> Jack Tanner</p>
-  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
